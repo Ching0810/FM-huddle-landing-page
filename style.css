@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(257, 40%, 49%);
+  overflow: hidden;
+}
+.container picture {
+  position: relative;
+  z-index: 1;
+}
+.container picture .w-full {
+  width: 100%;
+  position: absolute;
+}
+.container .card {
+  width: 100%;
+  padding: 2rem;
+  z-index: 2;
+  color: white;
+}
+.container .card .image {
+  width: 100%;
+}
+.container .card .image .logo {
+  width: 43%;
+  margin-bottom: 14vw;
+}
+.container .card .image .mockup {
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+.container .card .content {
+  text-align: center;
+}
+.container .card .content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 6.5vw;
+  font-weight: 600;
+  margin-bottom: 5vw;
+}
+.container .card .content p {
+  font-size: 4vw;
+  font-weight: 200;
+  line-height: 6vw;
+  margin-bottom: 5vw;
+}
+.container .card .content button {
+  all: unset;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  font-size: 3vw;
+  width: 45vw;
+  height: 10vw;
+  border-radius: 5vw;
+  margin-bottom: 15vw;
+}
+.container .card .content button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  box-shadow: 1.5vw 1.5vw 3vw rgba(0, 0, 0, 0.3), -1vw -1vw 1vw rgba(0, 0, 0, 0.1);
+}
+.container .card .content .link {
+  margin-bottom: 2vw;
+}
+.container .card .content .link svg {
+  filter: invert(1);
+  margin: 0 1vw;
+  width: 5vw;
+}
+.container .card .content .link svg:hover {
+  filter: invert(0);
+  cursor: pointer;
+  fill: hsl(300, 69%, 71%);
+}/*# sourceMappingURL=style.css.map */
