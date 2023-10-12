@@ -29,17 +29,18 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile mode (20231012):
+Mobile mode:
 <br/>
 <img src='./images/Screenshot 2023-10-12 at 20.53.49.png' width=300px>
 
 Desktop mode:
-To be updated
+<br/>
+<img src='./images/Screenshot 2023-10-12 at 22.22.00.png' width=700px>
 
 
 ### Links
 
-Live link: to be updated
+Live link: https://glowing-sawine-15c2c5.netlify.app/
 
 ## My process
 
@@ -61,7 +62,8 @@ Live link: to be updated
 
 ### Continued development
 
-Simplify redundant class and merge multiple CSS setting
+1. Simplify redundant class and merge multiple CSS setting
+2. Currently desktop mode background image width & height are both 100%, but target design should be width 90% and height 100%
 
 ### Useful resources
 
